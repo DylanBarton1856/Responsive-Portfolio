@@ -153,76 +153,83 @@ footer {
 
 
 /*media queries*/
-@media screen and (max-width: 980px) {
-    h1 {
-        margin-left: 5%;
+
+@media screen and (max-width: 640px) {
+        
+    .name{
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .heading{
+    width:100%;
+    margin:0 auto;
+    }
+   
+    .links{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header {
+        margin: 0 auto;
     }
     
-    .main-sections {
-        width: 90%;
-        margin: 5%;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    header {
+    .AboutMe {
         width: 100%;
+        margin: 0px;
     }
 
-    h1 {
-        margin-left: 5%;
-        padding: 3%;
-    }
-
-    .links {
-        float: none;
-        padding: 3%;
-        margin: 0;
+    .box {
+        width: 80%;
     }
 
     .main-section {
-        width: 90%;
-        margin: 5%;
-        padding: 5%;
+        margin-left:5%;
+        margin-right:5%;
+        width: auto;
     }
 
-}
-
-@media screen and (max-width: 640px) {
-    header {
-        position: static;
-        width: 100%;
-        text-align: center;
-    }
-
-    h1 {
-        width: 100%;
-        margin: 0;
-        font-size: 100%;
-    }
-
-    .links {
-        float: left;
-        margin-left: 20%;
-    }
-
-    .AboutMe {
-        border: none;
-    }
+@media screen and (max-width: 768px) {
     
-    .main-section{
-        width: 90%;
-        margin: 5%;
-        padding: auto;
+        .heading {
+            width: auto;
+        }
+    
+        .main-section {
+            margin-left:5%;
+            margin-right:5%;
+            width: auto;
+        }
+    
+        .name {
+            margin-left: 5%;
+        }
+    
+        .links {
+            margin-right: 5%;
+        }
     }
 
-    #SelfImage {
-        float: none;
-    }
 
-    h2 {
-        font-size: 150%;
-    }
+@media screen and (max-width: 980px) {
 
+        .heading {
+            width: auto;
+        }
+    
+        .main-section {
+            width: auto;
+            margin-left:5%;
+            width: 70%;
+        }
+    
+        .name {
+            margin-left: 5%;
+        }
+    
+        .links {
+            margin-right: 5%;
+        }
+    
+    }
 }
