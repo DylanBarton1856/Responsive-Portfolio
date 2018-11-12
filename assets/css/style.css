@@ -169,13 +169,14 @@ footer {
     .links{
         width: 100%;
         margin: 0 auto;
+        background-color: white;
     }
     .header {
         margin: 0 auto;
     }
     
     .AboutMe {
-        width: 100%;
+        width: 90%;
         margin: 0px;
     }
 
@@ -187,6 +188,22 @@ footer {
         margin-left:5%;
         margin-right:5%;
         width: auto;
+    }
+    
+    #SelfImage {
+    width:100%
+    }
+
+    #contact{
+        padding-right:90px;
+    }
+
+    #about{
+        padding-left: 90px;
+    }
+
+    .container1{
+        margin: 0 auto;
     }
 
 @media screen and (max-width: 768px) {
@@ -201,13 +218,13 @@ footer {
             width: auto;
         }
     
-        .name {
+        /* .name {
             margin-left: 5%;
         }
     
         .links {
             margin-right: 5%;
-        }
+        } */
     }
 
 
@@ -223,13 +240,13 @@ footer {
             width: 70%;
         }
     
-        .name {
+        /* .name {
             margin-left: 5%;
         }
     
         .links {
             margin-right: 5%;
-        }
+        } */
     
     }
 }
